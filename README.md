@@ -1,5 +1,9 @@
 # Tiny stack virtual machine
 
+[![make.fun · tiny-stack-vm-01-run-20261122](https://make.fun/badge/tiny-stack-vm-01-run-20261122.svg)](https://make.fun/bounty/tiny-stack-vm-01-run-20261122?utm_source=github&utm_medium=readme&utm_campaign=tiny-stack-vm-01-run-20261122)
+[![rank](https://make.fun/badge/tiny-stack-vm-01-run-20261122/sutenosakamoto-gif/tiny-stack-vm-20261123/rank.svg)](https://make.fun/bounty/tiny-stack-vm-01-run-20261122/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=tiny-stack-vm-01-run-20261122)
+[![reward](https://make.fun/badge/tiny-stack-vm-01-run-20261122/sutenosakamoto-gif/tiny-stack-vm-20261123/reward.svg)](https://make.fun/bounty/tiny-stack-vm-01-run-20261122?utm_source=github&utm_medium=readme&utm_campaign=tiny-stack-vm-01-run-20261122)
+
 `main.ts` (Node 22, no dependencies) interprets make.fun's tiny stack ISA v1:
 for each instance under `/input/<id>/` it runs `program.bin` on `input.bin`
 and writes `/output/<id>/stdout.bin` and `/output/<id>/exit.txt`.
