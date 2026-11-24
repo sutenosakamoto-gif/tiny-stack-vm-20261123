@@ -13,8 +13,7 @@ t++;
 let q=0,g=0;
 if(o==7)q=3;
 else if(o==65)q=2,g=-2;
-else if(o==5)q=2;
-else if(o==6)q=2,g=1;
+else if(o==5||o==6)q=2,g=o-5;
 else if(o==4)q=1,g=1;
 else if(o==1||o==2||o==82)g=1;
 else if(o>15&&o<35){if(o==23||o==27)q=1;else q=2,g=-1}
